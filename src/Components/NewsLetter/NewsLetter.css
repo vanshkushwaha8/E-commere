@@ -16,14 +16,14 @@
     color: #454545;
     font-size: 3.4375rem;
     font-weight: 600;
-    margin-top: 0rem;
+    margin-top: 5rem;
 }
 .newsletter p{
     color: #454545;
     font-size: 1.25rem;
 
 }
-.newsletter div{
+/*.newsletter div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,3 +62,43 @@
     transform: scale(1.05);
     transition: 0.6s;
 }
+*/
+.newsletter-form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+.name ,.email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.675rem 2rem;
+    color: #080808;
+    border: none;
+    border-radius: 2.5rem;
+    background: #fde1ff;
+    border-color: aqua;
+}
+.submitBtn{
+    background: rgb(240, 37, 37);
+    color: white;
+    padding: 0.75rem 3.5rem;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.submitBtn:active{
+    background: #171717;
+}
+.submitBtn:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
